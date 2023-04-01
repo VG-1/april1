@@ -1,0 +1,107 @@
+body {
+    font-family: 'Courier Prime', monospace;
+    align-items: center;
+    text-align: center;
+  }
+  .audio{
+    margin-top: 390px;
+  }
+  
+  .card {
+    width: 150px;                 /* Set width of cards */
+    display: flex;                /* Children use Flexbox */
+    flex-direction: column;       /* Rotate Axis */
+    border: 1px solid #eff0ef;    /* Set up Border */
+    border-radius: 4px;           /* Slightly Curve edges */
+    overflow: hidden;             /* Fixes the corners */
+    margin: 5px;                  /* Add space between cards */
+  }
+  
+  .card-header {
+    color: #e1f00e;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid #fffffe;
+    background-color: #070707;
+    padding: 5px 10px;
+  }
+  
+  .card-main {
+    display: flex;              /* Children use Flexbox */
+    flex-direction: column;     /* Rotate Axis to Vertical */
+    justify-content: center;    /* Group Children in Center */
+    align-items: center;        /* Group Children in Center (on cross axis) */
+    padding: 15px 0;            /* Add padding to the top/bottom */
+  }
+  
+  .material-icons {
+    font-size: 36px;
+    color: #e1f00e;
+    background-color: #070707;
+    margin-bottom: 5px;
+  }
+  
+  .main-description {
+    color: #e1f00e;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.popup{
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+		background: #03549a;
+		border-radius: 100%;
+		width: 40px;
+		height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+	margin-top: -20px;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+		border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+}
+  
